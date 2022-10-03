@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "AddDatas";
+}
+
+
+<style>
+
+    div {
+        background-color: burlywood;
+        align-content: center
+    }
+    .lop1{
+    
+    color:white;
+    text-align:center;
+    }
+    
+
+  
+</style>
+<div class="lop1">
+<h1>New Employee Credentials</h1>
+</div>
+<div class="lop2" >
+    <h2>Enter The Required Details</h2>
+   <form >
+       <table>
+           
+           <thead>
+               <tr>
+                    <td>Employee Id</td>
+                    <td><input type="text" /></td>
+               </tr >
+               <tr>
+                   <td>First Name</td>
+                   <td><input type="text" /></td>
+               </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                   <td><input type="text" placeholder="Male/Female" /></td>
+                </tr>
+                <tr>
+                    <th><input type="submit" value="Register"style="background-color:cornsilk"/></th>
+                    <th><input type="reset" value="Reset" style="background-color:cornsilk" /></th>
+                </tr>
+
+           </thead>
+
+
+
+       </table>
+   </form>
+    <a asp-action="allemployees" asp-controller="Emp">Back to List</a>
+</div>
+
+
+

@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Employee Information";
+}
+@model EmployeeTsk.Models.Employee
+<style>
+    .col1{
+    
+    background-color:burlywood;
+    }
+
+</style>
+<div class="col1">
+    <h2>Welcome to the Employee Credentials</h2>
+    <h4>Employee ID: @Model.Id</pre></h4>
+    <h4 >Employee First Name: @Model.Firstname</h4>
+    <h4 >Employee Last Name: @Model.Lastname</h4>
+    <h4 >Gender: @Model.Gender</h4>
+</div>
